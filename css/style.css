@@ -43,3 +43,21 @@ nav a {
     flex: 1;
     padding: 30px;
 }
+
+
+
+@media (max-width: 768px) {
+
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+}
