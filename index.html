@@ -9,66 +9,78 @@
 </head>
 
 <body>
+    <div class="layout">
+        <aside class="sidebar">
+            <h2>Dashboard</h2>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Inicio
+                        </a>
+                    </li>
 
-    <header>
-        <h1>Mi Dashboard</h1>
-    </header>
+                    <li>
+                        <a href="#">
+                            Usuarios
+                        </a>
+                    </li>
 
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Usuarios</a></li>
-            <li><a href="#">Reportes</a></li>
-            <li><a href="#">Configuración</a></li>
-        </ul>
-    </nav>
+                    <li>
+                        <a href="#">
+                            Reportes
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
 
-    <main>
-        <section>
-            <h2>Resumen</h2>
-            <div class="cards">
-                <article class="card">
-                    <h3>Usuarios</h3>
-                    <p id="totalUsuarios">150</p>
-                </article>
+        <main class="content">
+            <section>
+                <h2>Resumen</h2>
+                <div class="cards">
+                    <article class="card">
+                        <h3>Usuarios</h3>
+                        <p id="totalUsuarios">150</p>
+                    </article>
 
-                <article class="card">
-                    <h3>Usuarios activos</h3>
-                    <p>42</p>
-                </article>
+                    <article class="card">
+                        <h3>Usuarios activos</h3>
+                        <p>42</p>
+                    </article>
 
-                <article class="card">
-                    <h3>Nuevos usuarios</h3>
-                    <p>18</p>
-                </article>
-            </div>
-        </section>
+                    <article class="card">
+                        <h3>Nuevos usuarios</h3>
+                        <p>18</p>
+                    </article>
+                </div>
+            </section>
 
-        <section>
+            <section>
 
-            <h2>Usuarios registrados</h2>
+                <h2>Usuarios registrados</h2>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Email</th>
-                        <th>Ciudad</th>
-                    </tr>
-                </thead>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Email</th>
+                            <th>Ciudad</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>Carlos</td>
-                        <td>carlos@email.com</td>
-                        <td>Cúcuta</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+                    <tbody>
+                        <tr>
+                            <td>Carlos</td>
+                            <td>carlos@email.com</td>
+                            <td>Cúcuta</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
 
-    </main>
-
+        </main>
+    </div>
     <footer>
         <p>Universidad Francisco de Paula Santander - 2026</p>
     </footer>
